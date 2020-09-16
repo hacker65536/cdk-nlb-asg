@@ -12,7 +12,7 @@ export class CdkNlbAsgStack extends cdk.Stack {
     // The code that defines your stack goes here
 
     // myip
-    const myip = '124.35.199.109/32'; //example
+    const myip = '192.168.0.1/32'; //example
 
     // vpc
     const vpc = new ec2.Vpc(this, 'vcp', {
